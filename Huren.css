@@ -1,0 +1,109 @@
+body {
+font-family: Georgia,Times,serif;
+ margin: 10px auto;
+}
+header {
+  background: White;
+  overflow: auto;
+}
+main {
+  background: #F7E9FE;
+
+}
+footer {
+  background: White;
+}
+nav {
+  width: 30%;
+  margin: 0 auto;
+  
+}
+main, section, footer {
+  padding: 20px;
+  overflow: auto;
+  margin: 0 auto;
+}
+
+aside {
+  float: right;
+  width: auto;
+  overflow: auto;
+}
+
+a{
+ color: #6A0048;
+ text-decoration:none;
+}
+
+a:hover{
+	color: black;
+	text-decoration:underline;
+}
+
+
+a:active{
+	background-color: #F0CBFE;
+}
+
+
+
+.container {
+  width: 1200px;
+ height:1000px;
+  margin: 0 auto;  
+}
+
+
+.logo {
+ width: 150px;
+ margin: 0 auto;
+ margin-bottom:10px;
+ margin-top: 10px;
+ padding: 10px; 
+}
+
+.hoofdmenu {
+ text-align: left;
+ 
+} 
+
+.hoofdmenu li {
+	display:inline;
+	list-style: none;
+	margin: 2%;
+	
+} 
+
+.lila{
+	margin:0 auto;
+	width:900px;
+}
+
+.welcome{
+	text-align: center;
+	text-decoration:underline;
+}
+
+}
+
+.button1{
+	float:right;
+	padding:10px 10px;
+}
+
+.button2{
+	color:white;
+	background-color: #644B74;
+	float:right;
+	clear:right;
+	padding:4px;
+	border-radius:8px 8px;
+}
+
+
+.hureninfo{
+	overflow: scroll;
+	overflow-x: hidden;
+	height:700px;	
+	width: 600px;
+}
